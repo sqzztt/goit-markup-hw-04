@@ -20,13 +20,14 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: block;
+  position: relative;
 }
 
 .header-features:hover {
   color: #404bbf;
 }
 .header-features:active {
-  text-decoration-line: underline;
+  text-decoration-line: none;
   color: #404bbf;
 }
 .header-features:focus {
@@ -75,4 +76,22 @@
 }
 .header-address {
   margin-left: auto;
+}
+.header-features {
+  position: relative;
+}
+
+.header-features:active {
+  color: #404bbf;
+}
+
+.header-features:active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
 }

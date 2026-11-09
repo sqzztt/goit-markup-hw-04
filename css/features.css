@@ -24,3 +24,16 @@
 .features-item {
   width: calc((100% - 72px) / 4);
 }
+.container-icons-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 100%;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}

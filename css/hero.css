@@ -1,6 +1,15 @@
 .hero {
-  background: #2e2f42;
   padding: 188px 141px 188px 141px;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(46, 47, 66, 0.7) 0%,
+      rgba(46, 47, 66, 0.7) 100%
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-text {
   font-weight: 700;
