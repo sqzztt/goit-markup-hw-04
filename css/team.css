@@ -72,12 +72,13 @@
 .social-icons-team {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
+  justify-content: center;
   gap: 24px;
-  padding: 8px 16px 32px 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.social-icons-team .link-icons-team {
+.link-icons-team {
   display: flex;
   justify-content: center;
   align-items: center;
